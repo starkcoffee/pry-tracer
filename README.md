@@ -5,19 +5,19 @@ Trace method calls within Pry
 
 This is a plugin for Pry. Use it together with a pry debbuger. Install it with
   
-  gem install pry pry-debugger
-  gem install pry-tracer
+    gem install pry pry-debugger
+    gem install pry-tracer
   
 Or add it to your Gemfile
 
-  gem 'pry'
-  gem 'pry-debbuger'
-  gem 'pry-tracer'
+    gem 'pry'
+    gem 'pry-debbuger'
+    gem 'pry-tracer'
   
 To start debugging in your code, add the lines
 
-  require 'pry'
-  binding.pry
+    require 'pry'
+    binding.pry
   
 Start a new method call trace with `zs`. This creates or overrides an empty file in your current 
 working directory called `pry_method.log`.
