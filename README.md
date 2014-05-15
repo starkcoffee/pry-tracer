@@ -22,5 +22,5 @@ To start debugging in your code, add the lines
 Start a new method call trace with `zs`. This creates or overrides an empty file in your current 
 working directory called `pry_method.log`.
   
-Then step into whatever method you are interested in with `n` and press `z` to capture the method 
+Then step into whatever method you are interested in with `s` and press `z` to capture the method 
 and its arguments in the file `pry_method.log`.
